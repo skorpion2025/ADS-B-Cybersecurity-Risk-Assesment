@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mentalmodeler >
+<info >
+<name ><![CDATA[Model]]></name>
+<author ><![CDATA[]]></author>
+<description ><![CDATA[]]></description>
+<version ><![CDATA[]]></version>
+<date ><![CDATA[]]></date>
+</info>
+<groupNames >
+<groupName index="0"><![CDATA[]]></groupName>
+<groupName index="1"><![CDATA[AMENAZAS]]></groupName>
+<groupName index="2"><![CDATA[ACTIVOS CLAVES]]></groupName>
+<groupName index="3"><![CDATA[VARIABLES DECISIÓN]]></groupName>
+<groupName index="4"><![CDATA[]]></groupName>
+<groupName index="5"><![CDATA[MEDIDAS MITIGACIÓN]]></groupName>
+</groupNames>
+<concepts >
+<concept >
+<id ><![CDATA[0]]></id>
+<name ><![CDATA[Acceso no autorizado a red ADS-B]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[1]]></group>
+<x ><![CDATA[793]]></x>
+<y ><![CDATA[438]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[2]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Capacidad de Coordinación Interinstitucional]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Cobertura de fusión de sensores]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[6]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Infraestructura de red de control aéreo]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Nivel de Detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Precisión del sistema de detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[12]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Receptor terrestre ADS-B]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[14]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Servidor de vigilancia aérea (ATC)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Señal GNSS (GPS)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Tiempo de reacción ante incidentes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Transmisor ADS-B aéreo]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Autenticación Digital (MAC, listas blancas)]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[5]]></group>
+<x ><![CDATA[222]]></x>
+<y ><![CDATA[458]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[0]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Acceso no autorizado a red ADS-B]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[2]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Capacidad de Coordinación Interinstitucional]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Cobertura de fusión de sensores]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[5]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Desincronización de transmisiones]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[7]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Interferencia RF (Jamming)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[8]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Inyección de mensajes (Message Injection)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Nivel de Detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Precisión del sistema de detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[17]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Spoofing GPS (Suplantación de GPS)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Tiempo de reacción ante incidentes]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[2]]></id>
+<name ><![CDATA[Capacidad de Coordinación Interinstitucional]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[3]]></group>
+<x ><![CDATA[456]]></x>
+<y ><![CDATA[164]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[3]]></id>
+<name ><![CDATA[Cifrado de datos (AES-256)]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[5]]></group>
+<x ><![CDATA[171]]></x>
+<y ><![CDATA[392]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[0]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Acceso no autorizado a red ADS-B]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[2]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Capacidad de Coordinación Interinstitucional]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Cobertura de fusión de sensores]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[5]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Desincronización de transmisiones]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[7]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Interferencia RF (Jamming)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[8]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Inyección de mensajes (Message Injection)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Nivel de Detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Precisión del sistema de detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[17]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Spoofing GPS (Suplantación de GPS)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Tiempo de reacción ante incidentes]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[4]]></id>
+<name ><![CDATA[Cobertura de fusión de sensores]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[3]]></group>
+<x ><![CDATA[396]]></x>
+<y ><![CDATA[243]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[5]]></id>
+<name ><![CDATA[Desincronización de transmisiones]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[1]]></group>
+<x ><![CDATA[783]]></x>
+<y ><![CDATA[275]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[2]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Capacidad de Coordinación Interinstitucional]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Cobertura de fusión de sensores]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[6]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Infraestructura de red de control aéreo]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Nivel de Detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Precisión del sistema de detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[12]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Receptor terrestre ADS-B]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[14]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Servidor de vigilancia aérea (ATC)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Señal GNSS (GPS)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Tiempo de reacción ante incidentes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Transmisor ADS-B aéreo]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[6]]></id>
+<name ><![CDATA[Infraestructura de red de control aéreo]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[2]]></group>
+<x ><![CDATA[282]]></x>
+<y ><![CDATA[644]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[7]]></id>
+<name ><![CDATA[Interferencia RF (Jamming)]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[1]]></group>
+<x ><![CDATA[793]]></x>
+<y ><![CDATA[615]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[2]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Capacidad de Coordinación Interinstitucional]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Cobertura de fusión de sensores]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[6]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Infraestructura de red de control aéreo]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Nivel de Detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Precisión del sistema de detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[12]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Receptor terrestre ADS-B]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[14]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Servidor de vigilancia aérea (ATC)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Señal GNSS (GPS)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Tiempo de reacción ante incidentes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Transmisor ADS-B aéreo]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Inyección de mensajes (Message Injection)]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[1]]></group>
+<x ><![CDATA[796]]></x>
+<y ><![CDATA[357]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[2]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Capacidad de Coordinación Interinstitucional]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Cobertura de fusión de sensores]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[6]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Infraestructura de red de control aéreo]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Nivel de Detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Precisión del sistema de detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[12]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Receptor terrestre ADS-B]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[14]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Servidor de vigilancia aérea (ATC)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Señal GNSS (GPS)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Tiempo de reacción ante incidentes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Transmisor ADS-B aéreo]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[Multilateración (MLAT)]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[5]]></group>
+<x ><![CDATA[172]]></x>
+<y ><![CDATA[330]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[0]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Acceso no autorizado a red ADS-B]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[2]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Capacidad de Coordinación Interinstitucional]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Cobertura de fusión de sensores]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[5]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Desincronización de transmisiones]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[7]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Interferencia RF (Jamming)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[8]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Inyección de mensajes (Message Injection)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Nivel de Detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Precisión del sistema de detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[17]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Spoofing GPS (Suplantación de GPS)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Tiempo de reacción ante incidentes]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Nivel de Detección]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[3]]></group>
+<x ><![CDATA[251]]></x>
+<y ><![CDATA[295]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[11]]></id>
+<name ><![CDATA[Precisión del sistema de detección]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[3]]></group>
+<x ><![CDATA[638]]></x>
+<y ><![CDATA[227]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[12]]></id>
+<name ><![CDATA[Receptor terrestre ADS-B]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[2]]></group>
+<x ><![CDATA[647]]></x>
+<y ><![CDATA[686]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[13]]></id>
+<name ><![CDATA[Segmentación de redes críticas]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[5]]></group>
+<x ><![CDATA[189]]></x>
+<y ><![CDATA[530]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[0]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Acceso no autorizado a red ADS-B]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[2]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Capacidad de Coordinación Interinstitucional]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Cobertura de fusión de sensores]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[5]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Desincronización de transmisiones]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[7]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Interferencia RF (Jamming)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[8]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Inyección de mensajes (Message Injection)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Nivel de Detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Precisión del sistema de detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[17]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Spoofing GPS (Suplantación de GPS)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Tiempo de reacción ante incidentes]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[14]]></id>
+<name ><![CDATA[Servidor de vigilancia aérea (ATC)]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[2]]></group>
+<x ><![CDATA[447]]></x>
+<y ><![CDATA[695]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[Señal GNSS (GPS)]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[2]]></group>
+<x ><![CDATA[553]]></x>
+<y ><![CDATA[750]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Sistemas redundantes (Radar primario)]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[5]]></group>
+<x ><![CDATA[187]]></x>
+<y ><![CDATA[213]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[0]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Acceso no autorizado a red ADS-B]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[2]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Capacidad de Coordinación Interinstitucional]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Cobertura de fusión de sensores]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[5]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Desincronización de transmisiones]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[7]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Interferencia RF (Jamming)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[8]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Inyección de mensajes (Message Injection)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Nivel de Detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Precisión del sistema de detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[17]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.9]]></influence>
+<name ><![CDATA[Spoofing GPS (Suplantación de GPS)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[0.8]]></influence>
+<name ><![CDATA[Tiempo de reacción ante incidentes]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[17]]></id>
+<name ><![CDATA[Spoofing GPS (Suplantación de GPS)]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[1]]></group>
+<x ><![CDATA[792]]></x>
+<y ><![CDATA[526]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[2]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Capacidad de Coordinación Interinstitucional]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Cobertura de fusión de sensores]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[6]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Infraestructura de red de control aéreo]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Nivel de Detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Precisión del sistema de detección]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[12]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Receptor terrestre ADS-B]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[14]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Servidor de vigilancia aérea (ATC)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Señal GNSS (GPS)]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.7]]></influence>
+<name ><![CDATA[Tiempo de reacción ante incidentes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-0.8]]></influence>
+<name ><![CDATA[Transmisor ADS-B aéreo]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[18]]></id>
+<name ><![CDATA[Tiempo de reacción ante incidentes]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[3]]></group>
+<x ><![CDATA[502]]></x>
+<y ><![CDATA[336]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Transmisor ADS-B aéreo]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[2]]></group>
+<x ><![CDATA[218]]></x>
+<y ><![CDATA[593]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+</relationships>
+</concept>
+</concepts>
+<scenarios >
+<scenario >
+<name ><![CDATA[Scenario]]></name>
+<concepts >
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[0]]></id>
+<name ><![CDATA[Acceso no autorizado a red ADS-B]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Autenticación Digital (MAC, listas blancas)]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[2]]></id>
+<name ><![CDATA[Capacidad de Coordinación Interinstitucional]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[3]]></id>
+<name ><![CDATA[Cifrado de datos (AES-256)]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[4]]></id>
+<name ><![CDATA[Cobertura de fusión de sensores]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[5]]></id>
+<name ><![CDATA[Desincronización de transmisiones]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[6]]></id>
+<name ><![CDATA[Infraestructura de red de control aéreo]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[7]]></id>
+<name ><![CDATA[Interferencia RF (Jamming)]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Inyección de mensajes (Message Injection)]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[Multilateración (MLAT)]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Nivel de Detección]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[11]]></id>
+<name ><![CDATA[Precisión del sistema de detección]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[12]]></id>
+<name ><![CDATA[Receptor terrestre ADS-B]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[13]]></id>
+<name ><![CDATA[Segmentación de redes críticas]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[14]]></id>
+<name ><![CDATA[Servidor de vigilancia aérea (ATC)]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[Señal GNSS (GPS)]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Sistemas redundantes (Radar primario)]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[17]]></id>
+<name ><![CDATA[Spoofing GPS (Suplantación de GPS)]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[18]]></id>
+<name ><![CDATA[Tiempo de reacción ante incidentes]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Transmisor ADS-B aéreo]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+</concept>
+</concepts>
+</scenario>
+</scenarios>
+</mentalmodeler>
