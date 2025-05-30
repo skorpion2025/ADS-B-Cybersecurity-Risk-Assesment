@@ -51,3 +51,4 @@ pyModeS
 keras
 tensorflow
 scikit-fuzzy
+Para las pruebas reales, se requiere el un de un Tx señales ADS-B (HackRF, Blade, Pluto, etc).
