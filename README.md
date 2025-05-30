@@ -44,6 +44,7 @@ Analiza mensajes simulados, detecta irregularidades y registra los eventos en ar
 Instalar los siguientes paquetes (puede usarse `pip install -r requirements.txt`):
 
 ```txt
+dump1090
 numpy
 scikit-learn
 pyModeS
