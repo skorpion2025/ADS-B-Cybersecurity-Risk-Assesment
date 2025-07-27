@@ -43,8 +43,9 @@
            v                                             
    [ Visual/Audio Alerts ] ← LED + Speaker
 
-![Arquitectura](Images/Arquitectura.png)
+
 ---
+![Arquitectura](Images/Arquitectura.png)
 
 ## 🧰 Requisitos
 
@@ -96,6 +97,7 @@ numpy
 RPi.GPIO
 
 ![Dispositivo](Images/Dispositivo.png)
+
 
 ⚠️ Aviso Legal
 Este sistema es un proyecto educativo y experimental. No está diseñado para reemplazar sistemas de navegación aérea certificados. Las pruebas con transmisores como HackRF deben realizarse en entornos controlados y con los permisos correspondientes.
