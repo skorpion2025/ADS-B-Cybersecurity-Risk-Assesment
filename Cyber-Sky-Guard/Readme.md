@@ -2,6 +2,9 @@
 
 ![Logo](Images/Logo.png)
 
+![Dispositivo](Images/Dispositivo.png)
+
+
 **CyberSkyGuard** es un sistema autónomo desarrollado para detectar en tiempo real ciberataques al sistema de vigilancia aérea ADS-B, basado en una Raspberry Pi 4. Utiliza un RTL-SDR para capturar tráfico aéreo, analiza los mensajes en tiempo real con algoritmos de detección de anomalías y reporta ataques como *GPS spoofing*, *message injection*, *modificación*, y *eliminación de mensajes*.
 
 > Proyecto de investigación en ciberseguridad aeronáutica e inteligencia de señales.
@@ -96,11 +99,10 @@ streamlit
 numpy
 RPi.GPIO
 
-![Dispositivo](Images/Dispositivo.png)
-
-
 ⚠️ Aviso Legal
 Este sistema es un proyecto educativo y experimental. No está diseñado para reemplazar sistemas de navegación aérea certificados. Las pruebas con transmisores como HackRF deben realizarse en entornos controlados y con los permisos correspondientes.
 
 📫 Contacto
 Desarrollado por Skorpion
+
+
